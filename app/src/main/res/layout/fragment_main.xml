@@ -1,0 +1,206 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivityFragment"
+    android:layout_gravity="center_vertical"
+    android:background="@color/primary">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:src="@drawable/ic_settings_backup_restore_white_24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        app:elevation="6dp"
+        app:borderWidth="0dp"
+
+        android:clickable="true"
+        android:layout_margin="8dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="top|center_vertical"
+            android:layout_marginTop="16dp"
+            >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:id="@+id/primi"
+                    android:src="@drawable/primi" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="La Primitiva"
+                    android:layout_gravity="left|center_vertical"
+                    android:textSize="@dimen/abc_text_size_large_material"
+                    android:textColor="@color/primary_text_default_material_dark"
+                    android:typeface="sans"
+                    android:layout_marginLeft="16dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="35463456345"
+                android:id="@+id/tprimi"
+                android:layout_gravity="right"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:layout_marginBottom="16dp"
+                android:typeface="sans"
+                android:textColor="#ffffb6ad"
+                android:textStyle="bold" />
+
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:id="@+id/euro"
+                    android:src="@drawable/euromill" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Euromillones"
+                    android:layout_gravity="left|center_vertical"
+                    android:textSize="@dimen/abc_text_size_large_material"
+                    android:textColor="@color/primary_text_default_material_dark"
+                    android:typeface="sans"
+                    android:layout_marginLeft="16dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="23452345"
+                android:id="@+id/teuro"
+                android:layout_gravity="right"
+                android:textSize="@dimen/abc_text_size_large_material"
+
+                android:typeface="sans"
+                android:textColor="#ffffb6ad"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3 4"
+                android:layout_gravity="right"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:layout_marginBottom="16dp"
+                android:typeface="sans"
+                android:textColor="#ffffb6ad"
+                android:textStyle="bold"
+                android:id="@+id/teuro2" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:id="@+id/bono"
+                    android:src="@drawable/bono" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bonoloto"
+                    android:layout_gravity="left|center_vertical"
+                    android:textSize="@dimen/abc_text_size_large_material"
+                    android:textColor="@color/primary_text_default_material_dark"
+                    android:typeface="sans"
+                    android:layout_marginLeft="16dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="23452345"
+                android:id="@+id/tbono"
+                android:layout_gravity="right"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:layout_marginBottom="16dp"
+                android:typeface="sans"
+                android:textColor="#ffffb6ad"
+                android:textStyle="bold" />
+
+
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:id="@+id/gordo"
+                    android:src="@drawable/gordo" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="El Gordo"
+                    android:layout_gravity="left|center_vertical"
+                    android:textSize="@dimen/abc_text_size_large_material"
+                    android:textColor="@color/primary_text_default_material_dark"
+                    android:typeface="sans"
+                    android:layout_marginLeft="16dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="23452345"
+                android:id="@+id/tgordo"
+                android:layout_gravity="right"
+                android:textSize="@dimen/abc_text_size_large_material"
+                android:layout_marginBottom="16dp"
+                android:typeface="sans"
+                android:textColor="#ffffb6ad"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

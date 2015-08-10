@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LotoDroide</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="action_about">Sobre</string>
+
+
+
+    <string name="text_about"><![CDATA[<p><b>LotoDroide</b>. Un simple generador de números para los sorteos de lotería españoles.</p>
+    Diseñado por <b>Robert Krovs</b>
+    ]]></string>
+</resources>
